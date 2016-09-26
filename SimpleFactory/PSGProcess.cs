@@ -9,7 +9,7 @@ namespace SimpleFactory
     {
         public override void Start()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Start to do PSG Process");
         }
     }
 }

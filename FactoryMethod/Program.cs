@@ -10,6 +10,10 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
+            ProcessManager processManager = new IPGProcessManager();
+            Process process = processManager.Create();
+            process.Start();
+            Console.ReadKey();
         }
     }
 }
