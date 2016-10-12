@@ -7,7 +7,7 @@ namespace BuilderPattern
 {
     public class Director
     {
-        public Product build(Builder builder)
+        public Product Direct(Builder builder)
         {
             builder.BuildPart1();
             builder.BuildPart2();

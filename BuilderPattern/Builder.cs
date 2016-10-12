@@ -7,8 +7,7 @@ namespace BuilderPattern
 {
     public abstract class Builder
     {
-        Product product = new Product();
-
+        protected Product product = new Product();
         public abstract void BuildPart1();
 
         public abstract void BuildPart2();

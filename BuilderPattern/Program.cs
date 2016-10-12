@@ -11,12 +11,10 @@ namespace BuilderPattern
         static void Main(string[] args)
         {
             Director director = new Director();
-            Builder a = new BuilderA();
-            Builder b = new BuilderB();
-
-            Product product =   director.build(a);
+            Builder abuilder = new BuilderA();
+            Product product = director.Direct(abuilder);
             product.Show();
-
+            Console.ReadKey();
         }
     }
 }

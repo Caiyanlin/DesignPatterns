@@ -7,14 +7,15 @@ namespace BuilderPattern
 {
     public class Product
     {
+        string thisProduct = "";
         public void Build(string Part)
         {
-            throw new System.NotImplementedException();
+            thisProduct += Part+"\r\n";
         }
 
         public void Show()
         {
-            
+            Console.WriteLine(thisProduct);
         }
 
     }

@@ -9,7 +9,7 @@ namespace BuilderPattern
     {
         public override void BuildPart1()
         {
-            product.Build("BuilderB Build Part2");
+            product.Build("BuilderB Build Part1");
         }
 
         public override void BuildPart2()
