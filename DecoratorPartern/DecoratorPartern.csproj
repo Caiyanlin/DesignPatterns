@@ -7,8 +7,8 @@
     <ProjectGuid>{0951300B-B018-48D8-8C00-30A447CA098C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DecoratorPartern</RootNamespace>
-    <AssemblyName>DecoratorPartern</AssemblyName>
+    <RootNamespace>DecoratorPattern</RootNamespace>
+    <AssemblyName>DecoratorPattern</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -50,7 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
+    <None Include="DecoratorPartern.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Introduction.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

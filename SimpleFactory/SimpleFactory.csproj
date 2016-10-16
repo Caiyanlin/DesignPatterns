@@ -50,10 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="sf.cd" />
+    <None Include="SimpleFactory.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Introduction.txt" />
+    <Content Include="Intro.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

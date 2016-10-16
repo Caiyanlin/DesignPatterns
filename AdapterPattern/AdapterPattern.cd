@@ -7,8 +7,8 @@
       <FileName>Adaptee.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="AdapterPattern.Adapter" Collapsed="true">
-    <Position X="2.25" Y="3.25" Width="1.5" />
+  <Class Name="AdapterPattern.Adapter">
+    <Position X="2.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>Adapter.cs</FileName>

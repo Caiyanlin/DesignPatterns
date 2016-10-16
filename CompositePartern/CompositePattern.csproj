@@ -7,8 +7,8 @@
     <ProjectGuid>{4559D6BA-67E6-474F-B1FE-574C3850359B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CompositePartern</RootNamespace>
-    <AssemblyName>CompositePartern</AssemblyName>
+    <RootNamespace>CompositePattern</RootNamespace>
+    <AssemblyName>CompositePattern</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -49,7 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
+    <None Include="CompositePattern.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Introduction.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

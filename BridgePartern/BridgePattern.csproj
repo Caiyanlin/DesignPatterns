@@ -7,8 +7,8 @@
     <ProjectGuid>{2445F5FE-F297-40A1-9ABF-0E35E3EC53E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BridgePartern</RootNamespace>
-    <AssemblyName>BridgePartern</AssemblyName>
+    <RootNamespace>BridgePattern</RootNamespace>
+    <AssemblyName>BridgePattern</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -51,10 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
+    <None Include="BridgePattern.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Instruction.txt" />
+    <Content Include="Introduction.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
